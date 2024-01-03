@@ -1,2 +1,5 @@
 # SafrotTechUniverse
-SafrotTechUniverse: Your gateway to various and interesting topics in the tech field.
+
+<p align="center">
+  <img src="assets/SafrotTechUniverse.png"> 
+</p>
