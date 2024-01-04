@@ -2,11 +2,12 @@
 
 ### Table of content
 
-1. [Overview](#desc0)
+1. [The idea behind SSH.](#desc0)
+2. Intro.
+3. What is OpenSSH?
 
 <a name="desc0"></a>
-### Overview
-
+### The idea behind SSH
 
 <img alt="Overview" src="assets/Overview.png" />
 
