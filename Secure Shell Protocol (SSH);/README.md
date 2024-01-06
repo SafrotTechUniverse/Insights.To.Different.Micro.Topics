@@ -4,9 +4,9 @@
 
 1. [The idea behind SSH.](#desc0)
 2. [introduction](#desc1).
-3. [What is OpenSSH?](desc2)
-4. [Setting up OpenSSH and ensuring that it is installed on your local machine.](desc3)
-5. [OpenSSH Server Configuration.](desc4)
+3. [What is OpenSSH?](#desc2)
+4. [Setting up OpenSSH and ensuring that it is installed on your local machine.](#desc3)
+5. [OpenSSH Server Configuration.](#desc4)
 6. Establishing SSH connection.
 7. Key-Based Authentication.
 
