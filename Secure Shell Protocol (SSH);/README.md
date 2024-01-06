@@ -5,6 +5,10 @@
 1. [The idea behind SSH.](#desc0)
 2. [introduction](#desc1).
 3. [What is OpenSSH?](desc2)
+4. [Setting up OpenSSH and ensuring that it is installed on your local machine.](desc2)
+5. OpenSSH Server Configuration.
+6. Establishing SSH connection.
+7. Key-Based Authentication.
 
 <a name="desc0"></a>
 ### The idea behind SSH
@@ -25,3 +29,11 @@
 - SSH uses a ```client-server model```, which means that your machine is the client, and the machine you are connecting to is the server.
 
 <img alt="OpenSSHIntro.png" src="assets/OpenSSHIntro.png" />
+
+<a name="desc3"></a>
+### Setting up OpenSSH and ensuring that it is installed on your local machine.
+<img alt="local_machine_SSHCONF.png" src="assets/local_machine_SSHCONF.png" />
+
+- If you are on an up-to-date operating system from the last five years, you probably have SSH installed.
+- Many modern operating systems, including popular Linux distributions (e.g., Ubuntu, Fedora, Debian), macOS, and even some Windows distributions, come with SSH pre-installed or have easy ways to install it.
+  
