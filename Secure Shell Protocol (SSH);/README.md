@@ -3,7 +3,7 @@
 ### Table of content
 
 1. [The idea behind SSH.](#desc0)
-2. [introduction](#desc1).
+2. [Introduction](#desc1).
 3. [What is OpenSSH?](#desc2)
 4. [Setting up OpenSSH and ensuring that it is installed on your local machine.](#desc3)
 5. [OpenSSH Server Configuration.](#desc4)
@@ -16,7 +16,7 @@
 <img alt="Overview" src="assets/Overview.png" />
 
 <a name="desc1"></a>
-### introduction
+### Introduction
 
 <img alt="introduction" src="assets/introduction.png" />
 
