@@ -8,7 +8,7 @@
 4. [Setting up OpenSSH and ensuring that it is installed on your local machine.](#desc3)
 5. [OpenSSH Server Configuration.](#desc4)
 6. [Establishing SSH connection.](#desc5)
-7. Key-Based Authentication.
+7. [Key-Based Authentication.](#desc6)
 
 <a name="desc0"></a>
 ### The idea behind SSH
@@ -46,3 +46,8 @@
 ### Establishing SSH connection.
 
 <img alt="stablishingSSHConnection.png" src="assets/stablishingSSHConnection.png" />
+
+<a name="desc6"></a>
+### Key-Based Authentication.
+
+<img alt="Key-Based-Authentication.png" src="assets/Key-Based-Authentication.png" />
