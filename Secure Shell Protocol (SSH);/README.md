@@ -7,7 +7,7 @@
 3. [What is OpenSSH?](#desc2)
 4. [Setting up OpenSSH and ensuring that it is installed on your local machine.](#desc3)
 5. [OpenSSH Server Configuration.](#desc4)
-6. Establishing SSH connection.
+6. [Establishing SSH connection.](#desc5)
 7. Key-Based Authentication.
 
 <a name="desc0"></a>
@@ -41,3 +41,8 @@
 ### OpenSSH Server Configuration.
 
 <img alt="server_SSHCONF.png" src="assets/server_SSHCONF.png" />
+
+<a name="desc5"></a>
+### Establishing SSH connection.
+
+<img alt="stablishingSSHConnection.png" src="assets/stablishingSSHConnection.png" />
