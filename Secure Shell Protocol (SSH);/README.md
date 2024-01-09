@@ -9,6 +9,7 @@
 5. [OpenSSH Server Configuration.](#desc4)
 6. [Establishing SSH connection.](#desc5)
 7. [Key-Based Authentication.](#desc6)
+8. [Security Considerations in SSH Connections.](#desc7)
 
 <a name="desc0"></a>
 ### The idea behind SSH
@@ -88,3 +89,25 @@
 > Next, we'll showcase the featured articles for this week from the Safareet Magazine, diving into a detailed discussion of Key-Based Authentication in SSH.
 
 <img alt="Key-Based-Authentication.png" src="assets/Key-Based-Authentication.png" />
+
+
+<a name="desc7"></a>
+### Security Considerations in SSH Connections.
+
+##### 1. We need to disable password authentication on the server.
+- Otherwise, anyone can brute force their way into your shell. :(.
+> [!NOTE]
+> Turning off password authentication on SSH only impacts SSH; you will still be able to access your account when you physically access the machine.
+- Disabling password-based authentication is very straightforward.
+   - On your server, you will have to edit the SSH daemon config, which is found in ```/etc/ssh/sshd_config```.
+     ```
+     # To disable tunneled clear text passwords, change to no here!
+     PasswordAuthentication no
+
+     ```
+    - After that, restart the SSH daemon by using ```sudo systemctl reload sshd```.
+
+> [!WARNING]
+> There are many considerations to be taken into your server in production, such as changing the SSH port away from the default of 22.
+> Check [fail2ban](https://github.com/fail2ban/fail2ban).
+
