@@ -4,7 +4,13 @@
 ### Spill the ink on:
 
 - Networks
-   - [Secure Shell Protocol (SSH);](https://github.com/Mohamed-abdalazez/SafrotTechUniverse/tree/main/Secure%20Shell%20Protocol%20(SSH)%3B)
+  -  OSI Model; **SOON**
+  -  [Secure Shell Protocol (SSH);](https://github.com/Mohamed-abdalazez/SafrotTechUniverse/tree/main/Secure%20Shell%20Protocol%20(SSH)%3B)
+  -  File Transfer Protocol(FTP); **SOON**
+  -  HTTP/HTTPS; **SOON**
+  -  SSL/TLS; **SOON**
+  -  DNS (Domain Name System); **SOON**
+  
 - Operating systems.
 - Linux.
    - cgroups & Namespace **SOON**.
