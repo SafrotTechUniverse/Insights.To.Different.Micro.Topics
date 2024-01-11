@@ -5,7 +5,7 @@
 
 - Networks
   -  OSI Model; **SOON**
-  -  [Secure Shell Protocol (SSH);](https://github.com/Mohamed-abdalazez/SafrotTechUniverse/tree/main/Secure%20Shell%20Protocol%20(SSH)%3B)
+  -  [Secure Shell Protocol (SSH);](https://github.com/SafrotTechUniverse/Insights.To.Different.Micro.Topics/tree/main/Networks/Secure%20Shell%20Protocol%20(SSH)%3B)
   -  File Transfer Protocol(FTP); **SOON**
   -  HTTP/HTTPS; **SOON**
   -  SSL/TLS; **SOON**
