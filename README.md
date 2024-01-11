@@ -13,5 +13,5 @@
   
 - Operating systems.
 - Linux.
-   - cgroups & Namespace **SOON**.
+   - cgroups & Namespaces; **SOON**.
 - DevOps questions.
