@@ -13,5 +13,5 @@
   
 - Operating systems.
 - Linux.
-   - [cgroups & Namespaces;](https://github.com/SafrotTechUniverse/Insights.To.Different.Micro.Topics/blob/main/Linux/cgroups&Namespaces;/README.md#desc0) **SOON**.
+   - [cgroups & Namespaces;](https://github.com/SafrotTechUniverse/Insights.To.Different.Micro.Topics/tree/main/Linux/cgroups%26Namespaces%3B) **SOON**.
 - DevOps questions.
