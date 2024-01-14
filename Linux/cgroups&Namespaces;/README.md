@@ -1,6 +1,6 @@
 # cgroups & Namespaces;
 
-<img alt="Why.png" src="assets/Why.png" />
+<img alt="meme.png" src="assets/meme.png" />
 
 
 ### Table of content
@@ -9,7 +9,8 @@
 
 <a name="desc0"></a>
 ### What Are Namespaces? ```overview```.
-<img alt="overview.png" src="assets/overview.png" />
+
+<img alt="Why.png" src="assets/Why.png" />
 
 ##### So, let's say the technical term for the named space is:- 
 
