@@ -6,7 +6,7 @@
 ### Table of content
 
 1. [What Are Namespaces? ```overview```.](#desc0)
-2. [Types of Namespaces.](#desc1)
+2. [Types of Namespaces in Linux Kernel and Their Relationship with the Container Concept.](#desc1)
 
 <a name="desc0"></a>
 ### What Are Namespaces? ```overview```.
@@ -23,7 +23,7 @@
 > Take a look [here](https://github.com/Mohamed-abdalazez/DockerInDeep#crucial-concept-between-a-virtual-machine-and-a-container) for a crucial concept comparing a virtual machine and a container.
 
 <a name="desc1"></a>
-### Types of Namespaces.
+### Types of Namespaces in Linux Kernel and Their Relationship with the Container Concept
 ##### In the Linux kernel, there exist various types of namespaces, each having its own unique properties:
 - **user** namespace.
 - **process ID (PID)** namespace.
@@ -31,4 +31,13 @@
 - **mount (mnt)** namespace.
 - **interprocess communication (IPC)** namespace.
 -  **UNIX Time‑Sharing (UTS)** namespace.
-<p align="center"><samp>So, let's check out their thing together🐬.</samp></p>
+
+<p align="center">
+   <img src="assets/Containers _Are_Just_Processes.png"  width="400px" height="450px"><br>
+  <samp>
+    So, let's check out their thing together🐬.
+  </samp>
+</p>
+
+
+
