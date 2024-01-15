@@ -33,16 +33,16 @@
   
 <img src="assets/Containers _Are_Just_Processes.png"><br>
 
-1. Initial Check.
+##### 1. Initial Check.
    - Ran ```ps``` command to check processes related to nginx.**_nothing._**
-2. Docker Container Creation.
+##### 2. Docker Container Creation.
    - Executed ```docker run``` command to create a Docker container named safrotWebServer running the nginx image in detached mode ```-d```.
-3. Check Nginx processes again and get the process ID for the Nginx master process.
-4. Access **safrotWebServer** Container.
+##### 3. Check Nginx processes again and get the process ID for the Nginx master process.
+##### 4. Access **safrotWebServer** Container.
    - Used ```docker exec -it``` to access the bash shell inside the **safrotWebServer** Container.
-5. Created a new file named safrot_new_file inside the container.
-6. Exit the Docker container, navigate to the Nginx process directory, which we just obtained in step 3.
-7. List Contents of Nginx Process Root Directory
+##### 5. Created a new file named safrot_new_file inside the container.
+##### 6. Exit the Docker container, navigate to the Nginx process directory, which we just obtained in step 3.
+##### 7. List Contents of Nginx Process Root Directory
    - This root is the root file system for this process.
    - We can find the directory structure inside the **safrotWebServer** container, including the newly created file **safrot_new_file**.
 
