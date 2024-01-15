@@ -24,13 +24,6 @@
 
 <a name="desc1"></a>
 ### Types of Namespaces in Linux Kernel and Their Relationship with the Container Concept
-##### In the Linux kernel, there exist various types of namespaces, each having its own unique properties:
-- **user** namespace.
-- **process ID (PID)** namespace.
-- **network** namespace.
-- **mount (mnt)** namespace.
-- **interprocess communication (IPC)** namespace.
--  **UNIX Time‑Sharing (UTS)** namespace.
 
 <p align="center">
    <img src="assets/Containers _Are_Just_Processes.png"  width="400px" height="450px"><br>
@@ -38,6 +31,14 @@
     So, let's check out their thing together🐬.
   </samp>
 </p>
+
+##### In the Linux kernel, there exist various types of namespaces, each having its own unique properties:
+- **user** namespace.
+- **process ID (PID)** namespace.
+- **network** namespace.
+- **mount (mnt)** namespace.
+- **interprocess communication (IPC)** namespace.
+-  **UNIX Time‑Sharing (UTS)** namespace.
 
 
 
