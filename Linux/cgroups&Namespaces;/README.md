@@ -31,7 +31,7 @@
 
 - So let's discover this real scenario:
   
-<img src="assets/Containers _Are_Just_Processes.png"  width="400px" height="450px"><br>
+<img src="assets/Containers _Are_Just_Processes.png"><br>
 
 1. Initial Check.
    - Ran ```ps``` command to check processes related to nginx.**_nothing._**
