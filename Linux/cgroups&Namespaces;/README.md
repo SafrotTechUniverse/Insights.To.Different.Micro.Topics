@@ -50,13 +50,11 @@
 <a name="desc2"></a>
 ### Understanding the Types of Namespaces in the Linux Kernel.
 ##### In the Linux kernel, there exist various types of namespaces, each having its own unique properties:
-- **user** namespace.
-- **process ID (PID)** namespace.
-- **network** namespace.
-- **mount (mnt)** namespace.
-- **interprocess communication (IPC)** namespace.
--  **UNIX Time‑Sharing (UTS)** namespace.
-
+- **PID** - Process ID Namespace.
+- **MNT** - Mount Namespace.
+- **USER** Namespace.
+- **NET** - Network Namespace.
+- **UTS** - Unix Timesharing System Namespace.
 <p align="center">
   <samp>
     So, let's check out their thing together🐬.
