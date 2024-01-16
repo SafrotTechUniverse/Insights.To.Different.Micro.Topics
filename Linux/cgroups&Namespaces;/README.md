@@ -7,7 +7,8 @@
 
 1. [What Are Namespaces? ```overview```.](#desc0)
 2. [Proof that containers are just processes.](#desc1)
-3. [Types of Namespaces in Linux Kernel and Their Relationship with the Container Concept.](#desc2)
+3. [Understanding the Types of Namespaces in the Linux Kernel.](#desc2)
+4. Exploring the Relationship between Namespaces and Containers.
 
 <a name="desc0"></a>
 ### What Are Namespaces? ```overview```.
@@ -27,7 +28,7 @@
 <a name="desc1"></a>
 ### Proof that containers are just processes.
 
-- When you start a Docker container, you're actually starting a Linux process. The container runtime then use the already existing Linux features to provide isolation.***[More details in the next sections :D](desc2)***
+- When you start a Docker container, you're actually starting a Linux process. The container runtime then use the already existing Linux features to provide isolation.***More details in the next sections :D***
 
 - So let's discover this real scenario:
   
@@ -47,7 +48,7 @@
    - We can find the directory structure inside the **safrotWebServer** container, including the newly created file **safrot_new_file**.
 
 <a name="desc2"></a>
-### Types of Namespaces in Linux Kernel and Their Relationship with the Container Concept
+### Understanding the Types of Namespaces in the Linux Kernel.
 ##### In the Linux kernel, there exist various types of namespaces, each having its own unique properties:
 - **user** namespace.
 - **process ID (PID)** namespace.
