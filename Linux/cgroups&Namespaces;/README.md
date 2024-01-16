@@ -14,7 +14,7 @@
 
 <img alt="Why.png" src="assets/Why.png" />
 
-##### So, let's say the technical term for the named space is:- 
+##### So, let's explore the technical definition for namespaces.s:- 
 
 - **Namespaces** are a feature of the Linux kernel that partitions kernel resources. This allows one set of processes to see a distinct set of resources, while another set of processes see a different set of resources.
 
@@ -27,7 +27,7 @@
 <a name="desc1"></a>
 ### Proof that containers are just processes.
 
-- When you start a Docker container, you're actually starting a Linux process. The container runtime then use the already existing Linux features to provide isolation.***More details in the next sections :D***
+- When you start a Docker container, you're actually starting a Linux process. The container runtime then use the already existing Linux features to provide isolation.***[More details in the next sections :D](desc2)***
 
 - So let's discover this real scenario:
   
