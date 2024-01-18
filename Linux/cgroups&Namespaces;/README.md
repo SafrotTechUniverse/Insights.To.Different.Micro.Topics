@@ -32,7 +32,7 @@
 
 - So let's discover this real scenario:
   
-<img src="assets/Containers _Are_Just_Processes.png"><br>
+<img src="assets/Containers_Are_Just_Processes.png"><br>
 
 ##### 1. Initial Check.
    - Ran ```ps``` command to check processes related to nginx.**_nothing._**
@@ -49,16 +49,8 @@
 
 <a name="desc2"></a>
 ### Understanding the Types of Namespaces in the Linux Kernel.
-##### In the Linux kernel, there exist various types of namespaces, each having its own unique properties:
-- **PID** - Process ID Namespace.
-- **MNT** - Mount Namespace.
-- **USER** Namespace.
-- **NET** - Network Namespace.
-- **UTS** - Unix Timesharing System Namespace.
-<p align="center">
-  <samp>
-    So, let's check out their thing together🐬.
-  </samp>
-</p>
+
+<img src="assets/Types_of_Namespaces.png"><br>
+
 
 
