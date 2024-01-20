@@ -7,9 +7,8 @@
 
 1. [What Are Namespaces? ```overview```.](#desc0)
 2. [Proof that containers are just processes.](#desc1)
-3. [Understanding the Types of Namespaces in the Linux Kernel.](#desc2)
-4. Exploring the Relationship between Namespaces and Containers.
-
+4. [Namespaces in the Linux Kernel.](#desc2)
+5. [A Practical Look at How Containerization Tools Utilize the Namespace Feature in the Isolation Process.](#desc2)
 <a name="desc0"></a>
 ### What Are Namespaces? ```overview```.
 
@@ -48,9 +47,11 @@
    - We can find the directory structure inside the **safrotWebServer** container, including the newly created file **safrot_new_file**.
 
 <a name="desc2"></a>
-### Understanding the Types of Namespaces in the Linux Kernel.
+### Namespaces in the Linux Kernel.
 
 <img src="assets/Types_of_Namespaces.png"><br>
 
+<a name="desc3"></a>
+#### A Practical Look at How Containerization Tools Utilize the Namespace Feature in the Isolation Process.
 
-
+<img src="assets/NSDockerExploration.png"><br>
