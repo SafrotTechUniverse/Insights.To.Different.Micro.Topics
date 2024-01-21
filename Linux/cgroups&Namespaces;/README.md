@@ -77,4 +77,13 @@
 
 <img src="assets/mntns1.png"><br>
 
+> [!TIP]
+> • As we proved before, the container is just a process. So, you can use this command ```sudo cat /proc/12147/mountinfo``` to see the Mount Namespace setup when running a container.<br>
+> • **12147** is the process ID for my container; you can obtain your own by: ```docker inspect -f '{{.State.Pid}}' "Container Name"```<br>
+> • We can interact directly with Linux namespaces by using the ```nsenter``` program.<br>
+> • Let's apply it to our containers to see the file system of our **konohaWebserver** container.<br>
+>```
+>Killua@pop-os:~$ sudo nsenter --target 12147 --mount ls /
+>bin  boot  dev	docker-entrypoint.d  docker-entrypoint.sh  etc	home  lib  lib32  lib64  libx32  media	mnt  opt  proc	root  run  sbin  srv  sys  tmp	usr  var
+>```
 
