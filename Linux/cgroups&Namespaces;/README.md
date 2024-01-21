@@ -59,12 +59,22 @@
 
 <a name="desc4"></a>
 ### A closer look at some of the types of namespaces.
-#### 1.The Mount Namespace
+1. [The Mount Namespace - ```mnt```](#mnt)
+
+
+<a name="mnt"></a>
+#### 1.The Mount Namespace - ```mnt```
 
 <img src="assets/mntns.png"><br>
 
-##### Practical Example
+##### Practical Example.
 
 - Let's consider a scenario where you want to run two instances of a web server on the same host.
 - Without mount namespaces, you might face challenges if the web server needs to write to the same directory for logs and so on.
 - Each instance can have its own mount namespace, so even if they write to the same path e.g., ```/var/www/logs```, the changes are isolated to their respective mount namespaces.
+
+##### Inspecting Mount Namespace Setup when Running a Container: via Process ID.
+
+<img src="assets/mntns1.png"><br>
+
+
