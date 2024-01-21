@@ -15,7 +15,7 @@
 
 <img alt="Why.png" src="assets/Why.png" />
 
-##### So, let's explore the technical definition for namespaces.s:- 
+##### So, let's explore the technical definition for namespaces:- 
 
 - **Namespaces** are a feature of the Linux kernel that partitions kernel resources. This allows one set of processes to see a distinct set of resources, while another set of processes see a different set of resources.
 
@@ -50,20 +50,24 @@
 <a name="desc2"></a>
 ### Namespaces in the Linux Kernel.
 
+##### Overview
+
 <img src="assets/Types_of_Namespaces.png"><br>
 
 <a name="desc3"></a>
-#### A Practical Look at How Containerization Tools Utilize the Namespace Feature in the Isolation Process.
+##### A Practical Look at How Containerization Tools Utilize the Namespace Feature in the Isolation Process.
 
 <img src="assets/NSDockerExploration.png"><br>
 
 <a name="desc4"></a>
 ### A closer look at some of the types of namespaces.
 1. [The Mount Namespace - ```mnt```](#mnt)
+2. [The Process ID Namespace - ```PID```](#pid)
 
 
 <a name="mnt"></a>
-#### 1.The Mount Namespace - ```mnt```
+#### The Mount Namespace - ```mnt```
+##### overview
 
 <img src="assets/mntns.png"><br>
 
@@ -73,8 +77,8 @@
 - Without mount namespaces, you might face challenges if the web server needs to write to the same directory for logs and so on.
 - Each instance can have its own mount namespace, so even if they write to the same path e.g., ```/var/www/logs```, the changes are isolated to their respective mount namespaces.
 
-##### Inspecting Mount Namespace Setup when Running a Container: via Process ID.
-
+### Inspecting Mount Namespace Setup when Running a Container: via Process ID.
+##### Overview
 <img src="assets/mntns1.png"><br>
 
 > [!TIP]
@@ -87,3 +91,8 @@
 >bin  boot  dev	docker-entrypoint.d  docker-entrypoint.sh  etc	home  lib  lib32  lib64  libx32  media	mnt  opt  proc	root  run  sbin  srv  sys  tmp	usr  var
 >```
 
+<a name="pid"></a>
+#### The Process ID Namespace - ```PID```
+##### Overview
+
+<img src="assets/pidns.png"><br>
