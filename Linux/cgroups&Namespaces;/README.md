@@ -62,3 +62,9 @@
 #### 1.The Mount Namespace
 
 <img src="assets/mntns.png"><br>
+
+##### Practical Example
+
+- Let's consider a scenario where you want to run two instances of a web server on the same host.
+- Without mount namespaces, you might face challenges if the web server needs to write to the same directory for logs and so on.
+- Each instance can have its own mount namespace, so even if they write to the same path e.g., ```/var/www/logs```, the changes are isolated to their respective mount namespaces.
