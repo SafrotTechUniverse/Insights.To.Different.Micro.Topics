@@ -8,7 +8,8 @@
 1. [What Are Namespaces? ```overview```.](#desc0)
 2. [Proof that containers are just processes.](#desc1)
 4. [Namespaces in the Linux Kernel.](#desc2)
-5. [A Practical Look at How Containerization Tools Utilize the Namespace Feature in the Isolation Process.](#desc2)
+5. [A Practical Look at How Containerization Tools Utilize the Namespace Feature in the Isolation Process.](#desc3)
+6. [A closer look at some of the types of namespaces.](#desc4)
 <a name="desc0"></a>
 ### What Are Namespaces? ```overview```.
 
@@ -55,3 +56,9 @@
 #### A Practical Look at How Containerization Tools Utilize the Namespace Feature in the Isolation Process.
 
 <img src="assets/NSDockerExploration.png"><br>
+
+<a name="desc4"></a>
+### A closer look at some of the types of namespaces.
+#### 1.The Mount Namespace
+
+<img src="assets/mntns.png"><br>
