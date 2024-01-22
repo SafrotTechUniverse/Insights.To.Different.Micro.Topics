@@ -64,10 +64,10 @@
 1. [The Mount Namespace - ```mnt```](#mnt)
    - [Overview.](#overview-mnt)
    - [Practical Example.](#Practical-ex-mnt)
-   - [Inspecting Mount Namespace Setup when Running a Container: via Process ID.](#Inspecting-mnt)
 3. [The Process ID Namespace - ```PID```](#pid)
    - [Overview.](#overview-pid)
    - [Practical Example.](#Practical-ex-pid)
+   - [The risks you may face when using a shared namespace for all processes.](#risks-shared-ns-for-all-proc)
 
 
 <a name="mnt"></a>
@@ -83,9 +83,7 @@
 - Let's consider a scenario where you want to run two instances of a web server on the same host.
 - Without mount namespaces, you might face challenges if the web server needs to write to the same directory for logs and so on.
 - Each instance can have its own mount namespace, so even if they write to the same path e.g., ```/var/www/logs```, the changes are isolated to their respective mount namespaces.
-
-<a name="Inspecting-mnt"></a>
-##### Inspecting Mount Namespace Setup when Running a Container: via Process ID.
+- Now, let's inspect the Mount Namespace setup when running a container via **Process ID**:
 
 <img src="assets/mntns1.png"><br>
 
@@ -131,3 +129,6 @@
 <samp>
   In summary, the unshare command is used to create a new shell in a separate PID namespace. Within that namespace, the PID of the new shell is 1, and any processes started within that shell have PIDs isolated from the rest of the system. Exiting the new shell returns to the original namespace, where the PID of the original shell is different.</samp>
 </p>
+
+<a name="risks-shared-ns-for-all-proc"></a>
+##### The risks you may face when using a shared namespace for all processes.
