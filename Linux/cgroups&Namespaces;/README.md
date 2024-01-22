@@ -34,16 +34,16 @@
   
 <img src="assets/Containers_Are_Just_Processes.png"><br>
 
-##### 1. Initial Check.
+##### Initial Check.
    - Ran ```ps``` command to check processes related to nginx.**_nothing._**
-##### 2. Docker Container Creation.
+##### Docker Container Creation.
    - Executed ```docker run``` command to create a Docker container named safrotWebServer running the nginx image in detached mode ```-d```.
-##### 3. Check Nginx processes again and get the process ID for the Nginx master process.
-##### 4. Access **safrotWebServer** Container.
+##### Check Nginx processes again and get the process ID for the Nginx master process.
+##### Access **safrotWebServer** Container.
    - Used ```docker exec -it``` to access the bash shell inside the **safrotWebServer** Container.
-##### 5. Created a new file named safrot_new_file inside the container.
+##### Created a new file named safrot_new_file inside the container.
 ##### 6. Exit the Docker container, navigate to the Nginx process directory, which we just obtained in step 3.
-##### 7. List Contents of Nginx Process Root Directory
+##### List Contents of Nginx Process Root Directory
    - This root is the root file system for this process.
    - We can find the directory structure inside the **safrotWebServer** container, including the newly created file **safrot_new_file**.
 
@@ -62,23 +62,31 @@
 <a name="desc4"></a>
 ### A closer look at some of the types of namespaces.
 1. [The Mount Namespace - ```mnt```](#mnt)
-2. [The Process ID Namespace - ```PID```](#pid)
+   - [Overview.](#overview-mnt)
+   - [Practical Example.](#Practical-ex-mnt)
+   - [Inspecting Mount Namespace Setup when Running a Container: via Process ID.](nspecting-mnt)
+3. [The Process ID Namespace - ```PID```](#pid)
+   - [Overview.](#overview-pid)
+   - [Practical Example.](#Practical-ex-pid)
 
 
 <a name="mnt"></a>
 #### The Mount Namespace - ```mnt```
-##### overview
+<a name="overview-mnt"></a>
+##### Overview
 
 <img src="assets/mntns.png"><br>
 
+<a name="Practical-ex-mnt"></a>
 ##### Practical Example.
 
 - Let's consider a scenario where you want to run two instances of a web server on the same host.
 - Without mount namespaces, you might face challenges if the web server needs to write to the same directory for logs and so on.
 - Each instance can have its own mount namespace, so even if they write to the same path e.g., ```/var/www/logs```, the changes are isolated to their respective mount namespaces.
 
-### Inspecting Mount Namespace Setup when Running a Container: via Process ID.
-##### Overview
+<a name="Inspecting-mnt"></a>
+##### Inspecting Mount Namespace Setup when Running a Container: via Process ID.
+
 <img src="assets/mntns1.png"><br>
 
 > [!TIP]
@@ -93,10 +101,13 @@
 
 <a name="pid"></a>
 #### The Process ID Namespace - ```PID```
+
+<a name="overview-pid"></a>
 ##### Overview
 
 <img src="assets/pidns.png"><br>
 
+<a name="Practical-ex-pid"></a>
 ##### Practical Example.
 
 <img src="assets/pidns1.png"><br>
