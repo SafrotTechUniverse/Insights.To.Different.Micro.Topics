@@ -116,7 +116,7 @@
 - _**echo "current shell pid: $$**_
   - This command, executed in the original shell, prints the PID of the original shell, which is ```13084``` in this case.
 
-<p>
+<p align="center">
 <samp>
   In summary, the unshare command is used to create a new shell in a separate PID namespace. Within that namespace, the PID of the new shell is 1, and any processes started within that shell have PIDs isolated from the rest of the system. Exiting the new shell returns to the original namespace, where the PID of the original shell is different.</samp>
 </p>
