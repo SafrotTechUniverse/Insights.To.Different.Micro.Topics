@@ -64,7 +64,7 @@
 1. [The Mount Namespace - ```mnt```](#mnt)
    - [Overview.](#overview-mnt)
    - [Practical Example.](#Practical-ex-mnt)
-   - [Inspecting Mount Namespace Setup when Running a Container: via Process ID.](Inspecting-mnt)
+   - [Inspecting Mount Namespace Setup when Running a Container: via Process ID.](#Inspecting-mnt)
 3. [The Process ID Namespace - ```PID```](#pid)
    - [Overview.](#overview-pid)
    - [Practical Example.](#Practical-ex-pid)
