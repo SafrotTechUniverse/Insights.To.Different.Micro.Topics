@@ -96,3 +96,27 @@
 ##### Overview
 
 <img src="assets/pidns.png"><br>
+
+##### Practical Example.
+
+<img src="assets/pidns1.png"><br>
+
+- _**sudo unshare --fork --pid --mount-proc /bin/bash**_
+  - ```unshare```: Allows you to run a program with certain namespaces unshared from the parent process. In this case, it's creating a new PID namespace.
+  - ```--fork```: This option tells unshare to fork the current shell into a new process before executing the specified command (```/bin/bash```). The forked process will be the one running in the new PID namespace.
+  - ```--pid```:  creates a new PID namespace.
+  - ```--mount-proc```: mounts a new /proc filesystem in that namespace.
+  - The new shell is started with ```/bin/bash```.
+- _**echo "Current shell PID: $$**_
+  - prints the PID of the current shell in the new namespace. In this case, it shows that the PID is 1, indicating that it's the first process in the new PID namespace.
+- _**ps aux**_
+  - lists all processes in the current namespace. In this example, it shows that there are two processes: the **/bin/bash process (PID 1)** and the **ps aux command itself (PID 9)**.
+- _**exit**_
+  - exits the new shell and returns to the original namespace.
+- _**echo "current shell pid: $$**_
+  - This command, executed in the original shell, prints the PID of the original shell, which is ```13084``` in this case.
+
+<p>
+<samp>
+  In summary, the unshare command is used to create a new shell in a separate PID namespace. Within that namespace, the PID of the new shell is 1, and any processes started within that shell have PIDs isolated from the rest of the system. Exiting the new shell returns to the original namespace, where the PID of the original shell is different.</samp>
+</p>
