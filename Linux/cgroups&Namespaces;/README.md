@@ -61,17 +61,17 @@
 
 <a name="desc4"></a>
 ### A closer look at some of the types of namespaces.
-1. [The Mount Namespace - ```mnt```](#mnt)
+1. [A Mount Namespace - ```mnt```](#mnt)
    - [Overview.](#overview-mnt)
    - [Practical Example.](#Practical-ex-mnt)
-3. [The Process ID Namespace - ```PID```](#pid)
+2. [A Process ID Namespace - ```PID```](#pid)
    - [Overview.](#overview-pid)
    - [Practical Example.](#Practical-ex-pid)
    - [The risks you may face when using a shared namespace for all processes.](#risks-shared-ns-for-all-proc)
-
+3. [A Network namespace - ```net```](#net)
 
 <a name="mnt"></a>
-#### The Mount Namespace - ```mnt```
+#### A Mount Namespace - ```mnt```
 <a name="overview-mnt"></a>
 ##### Overview
 
@@ -98,7 +98,7 @@
 >```
 
 <a name="pid"></a>
-#### The Process ID Namespace - ```PID```
+#### A Process ID Namespace - ```PID```
 
 <a name="overview-pid"></a>
 ##### Overview
@@ -138,3 +138,6 @@
 - Depending on timing, the displayed content by ```cat``` in Terminal-1 may be the original or the new content written by Process 2.
 - This scenario highlights potential interference between two processes in the same PID namespace, sharing access to a file, leading to unexpected outcomes.
 - Utilizing separate PID namespaces is recommended to achieve process isolation and prevent interference issues in scenarios with shared resources.
+
+<a name="net"></a>
+#### A Network namespace - ```net```
