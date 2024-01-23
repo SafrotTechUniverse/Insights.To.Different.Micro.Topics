@@ -132,3 +132,9 @@
 
 <a name="risks-shared-ns-for-all-proc"></a>
 ##### The risks you may face when using a shared namespace for all processes.
+
+<img src="assets/risks-shared-ns-for-all-proc.png"><br>
+
+- Depending on timing, the displayed content by ```cat``` in Terminal-1 may be the original or the new content written by Process 2.
+- This scenario highlights potential interference between two processes in the same PID namespace, sharing access to a file, leading to unexpected outcomes.
+- Utilizing separate PID namespaces is recommended to achieve process isolation and prevent interference issues in scenarios with shared resources.
