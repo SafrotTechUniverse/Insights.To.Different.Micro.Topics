@@ -2,6 +2,8 @@
 
 <img alt="meme.png" src="assets/meme.png" />
 
+>[!NOTE]
+> Focused more on Docker here [DockerInDeep](https://github.com/Mohamed-abdalazez/DockerInDeep); take a look there as well.
 
 ### Table of content
 
