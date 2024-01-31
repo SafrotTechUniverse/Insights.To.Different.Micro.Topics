@@ -73,6 +73,7 @@
 3. [A Network namespace - ```net```](#net)
     - [Overview.](#overview-net)
     - [Isolating Containers: Network Independence on Hosts - Overview.](#Isolating-Containers)
+    - [Dealing with network namespaces on the Linux host.](#network-namespaces-Linux)
 
 
 <a name="mnt"></a>
@@ -154,3 +155,8 @@
 <a name="Isolating-Containers"></a>
 ##### Isolating Containers: Network Independence on Hosts - Overview.
 <img src="assets/Isolating-Containers.png"><br>
+
+
+<a name="network-namespaces-Linux"></a>
+##### Dealing with network namespaces on the Linux host.
+
