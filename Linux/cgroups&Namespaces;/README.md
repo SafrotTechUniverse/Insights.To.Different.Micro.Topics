@@ -72,6 +72,7 @@
    - [The risks you may face when using a shared namespace for all processes.](#risks-shared-ns-for-all-proc)
 3. [A Network namespace - ```net```](#net)
     - [Overview.](#overview-net)
+    - [Isolating Containers: Network Independence on Hosts - Overview.](#Isolating-Containers)
 
 
 <a name="mnt"></a>
@@ -149,3 +150,7 @@
 ##### Overview
 
 <img src="assets/overview-net.png"><br>
+
+<a name="Isolating-Containers"></a>
+##### Isolating Containers: Network Independence on Hosts - Overview.
+<img src="assets/Isolating-Containers.png"><br>
