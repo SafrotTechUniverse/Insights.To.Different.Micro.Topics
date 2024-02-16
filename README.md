@@ -6,12 +6,7 @@
 - Networks
   -  OSI Model; **SOON**
   -  [Secure Shell Protocol (SSH);](https://github.com/SafrotTechUniverse/Insights.To.Different.Micro.Topics/tree/main/Networks/Secure%20Shell%20Protocol%20(SSH)%3B)
-  -  File Transfer Protocol(FTP); **SOON**
-  -  HTTP/HTTPS; **SOON**
-  -  SSL/TLS; **SOON**
-  -  DNS (Domain Name System); **SOON**
-  
 - Operating systems.
 - Linux.
-   - [cgroups & Namespaces;](https://github.com/SafrotTechUniverse/Insights.To.Different.Micro.Topics/tree/main/Linux/cgroups%26Namespaces%3B) **SOON**.
+   - [cgroups & Namespaces;](https://github.com/SafrotTechUniverse/Insights.To.Different.Micro.Topics/tree/main/Linux/cgroups%26Namespaces%3B).
 - DevOps questions.
