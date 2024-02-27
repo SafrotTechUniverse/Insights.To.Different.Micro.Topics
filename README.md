@@ -4,7 +4,7 @@
 ### Spill the ink on:
 
 - Networks
-  -  OSI Model; **SOON**
+  -  [OSI Model;](https://github.com/SafrotTechUniverse/Insights.To.Different.Micro.Topics/tree/main/Networks/OSI-MODEL%3B) **SOON**
   -  [Secure Shell Protocol (SSH);](https://github.com/SafrotTechUniverse/Insights.To.Different.Micro.Topics/tree/main/Networks/Secure%20Shell%20Protocol%20(SSH)%3B)
 - Operating systems.
 - Linux.
