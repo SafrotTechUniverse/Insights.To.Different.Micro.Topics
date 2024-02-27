@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/OSI-Logo.svg"  width="300px" height="300px"><br>
+  <img src="assets/OSI-Logo.png"  width="300px" height="300px"><br>
 </p>
 
 > [!NOTE]
