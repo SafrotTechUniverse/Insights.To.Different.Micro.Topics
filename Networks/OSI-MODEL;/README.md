@@ -8,8 +8,12 @@
 
 ### Table of content
 1. [Introduction.](#OSI-Intro)
+2. [What is a Protocol?](#What-is-a-Protocol)
 
 <a name="OSI-Intro"></a>
 ### Introduction.
 
 <img alt="OSI-Intro.png" src="assets/OSI-Intro.png" />
+
+<a name="What-is-a-Protocol"></a>
+### What is a Protocol?
