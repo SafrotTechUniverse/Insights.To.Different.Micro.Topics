@@ -9,6 +9,8 @@
 ### Table of content
 1. [Introduction.](#OSI-Intro)
 2. [What is a Protocol?](#What-is-a-Protocol)
+3. [Application layer.](#application-layer)
+
 <a name="OSI-Intro"></a>
 ### Introduction.
 
@@ -20,3 +22,6 @@
 
 > [!NOTE]
 > This is the basic overview of what a protocol is. Now, we will delve into the layers and explain some of those protocols with nitty-gritty details.
+
+<a name="#application-layer"></a>
+### Application layer.
