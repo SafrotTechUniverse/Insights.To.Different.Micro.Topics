@@ -23,7 +23,7 @@
 > [!NOTE]
 > This is the basic overview of what a protocol is. Now, we will delve into the layers and explain some of those protocols with nitty-gritty details.
 
-<a name="#application-layer"></a>
+<a name="application-layer"></a>
 ### Application layer.
 - The highest layer in the OSI model, focusing on providing network services to end-users and applications.
 - It enables communication between different software applications and defines standards for data formatting and interaction across networks.
@@ -39,3 +39,11 @@
    - DHCP (Dynamic Host Configuration Protocol) - Dynamically assigns IP addresses and network configuration.
 
 - In this layer, we will only discuss protocols marked with green color.
+<img alt="Application-layer-overall.png" src="assets/Application-layer-overall.png" />
+
+- [HTTP (Hypertext Transfer Protocol).](#HTTP)
+- [DNS (Domain Name System).](#)
+- [HTTPS (Hypertext Transfer Protocol Secure).](#)
+
+<a name="HTTP"></a>
+#### HTTP (Hypertext Transfer Protocol).
