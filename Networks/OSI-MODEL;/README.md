@@ -25,3 +25,17 @@
 
 <a name="#application-layer"></a>
 ### Application layer.
+- The highest layer in the OSI model, focusing on providing network services to end-users and applications.
+- It enables communication between different software applications and defines standards for data formatting and interaction across networks.
+- Here are some examples of protocols operating at the application layer:
+   ```diff
+   + HTTP (Hypertext Transfer Protocol) - Transfers web pages and resources on the web.
+   + HTTPS (Hypertext Transfer Protocol Secure) - Secure version of HTTP, encrypts communication.
+   - FTP (File Transfer Protocol) - Transfers files between client and server.
+   - SMTP (Simple Mail Transfer Protocol) - Sends and relays email messages.
+   - POP3 (Post Office Protocol version 3) - Retrieves email messages from a server.
+   - IMAP (Internet Message Access Protocol) - Accesses and manages email messages on a server.
+   + DNS (Domain Name System) - Translates domain names to IP addresses.
+   - DHCP (Dynamic Host Configuration Protocol) - Dynamically assigns IP addresses and network configuration.
+
+- In this layer, we will only discuss protocols marked with green color.
