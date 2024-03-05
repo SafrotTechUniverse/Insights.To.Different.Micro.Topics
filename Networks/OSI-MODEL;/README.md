@@ -47,3 +47,10 @@
 
 <a name="HTTP"></a>
 #### HTTP (Hypertext Transfer Protocol).
+   - [HTTP response status codes.](#HTTP-res-status-code)
+   - HTTP request Format
+
+ 
+<a name="HTTP-res-status-code"></a>
+##### HTTP response status codes
+<img alt="HTTP-res-status-code.png" src="assets/HTTP-res-status-code.png" />
