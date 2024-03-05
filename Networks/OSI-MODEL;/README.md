@@ -47,10 +47,18 @@
 
 <a name="HTTP"></a>
 #### HTTP (Hypertext Transfer Protocol).
-   - [HTTP response status codes.](#HTTP-res-status-code)
-   - HTTP request Format
+   - What is HTTP?
+   - HTTP History and Versions.
+   - HTTP request.
+   - HTTP method.
+   - HTTP request headers.
+   - HTTP request body.
+   - HTTP response.
+   - [HTTP status code.](#HTTP-res-status-code)
+   - What are HTTP response headers?
+   - What is in an HTTP response body?
 
  
 <a name="HTTP-res-status-code"></a>
-##### HTTP response status codes
+##### HTTP status code.
 <img alt="HTTP-res-status-code.png" src="assets/HTTP-res-status-code.png" />
