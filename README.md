@@ -9,5 +9,5 @@
 - Operating systems.
 - Linux.
    - [cgroups & Namespaces;](https://github.com/SafrotTechUniverse/Insights.To.Different.Micro.Topics/tree/main/Linux/cgroups%26Namespaces%3B).
-   - [Linux Package manger] - (SOON).
+   - [Linux Package manger] **SOON**
 - DevOps questions.
