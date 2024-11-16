@@ -8,4 +8,4 @@
 - Operating systems.
 - Linux.
    - [cgroups & Namespaces;](https://github.com/SafrotTechUniverse/Insights.To.Different.Micro.Topics/tree/main/Linux/cgroups%26Namespaces%3B).
-   - [Package Management in Linux](https://github.com/SafrotTechUniverse/Insights.To.Different.Micro.Topics/tree/main)
+   - [Package Management in Linux;](https://github.com/SafrotTechUniverse/Insights.To.Different.Micro.Topics/tree/main/Linux/Package-Management)
