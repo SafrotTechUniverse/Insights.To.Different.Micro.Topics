@@ -13,3 +13,7 @@
 <a name="desc1"></a>
 ### Types of packages in general.
 <img alt="meme.png" src="assets/2-Types-G.png" />
+
+<a name="desc1"></a>
+### Types of packages specific to each distro.
+<img alt="meme.png" src="assets/3-Types-S.png" />
